@@ -23,14 +23,10 @@ public class DriverScript {
 		
 		Thread.sleep(5000);
 		
-		
         driver.quit();
         
 	}
 	
 	
-	// These changes has been made in Repo for PULL 
 	
-	
-	// changes made to make Ananta more happy
 }
