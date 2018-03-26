@@ -27,6 +27,26 @@ public class DriverScript {
         
 	}
 	
+@Test
+	
+	public void keywordDriven2() throws Exception {
+		
+		driver = new FirefoxDriver();
+		
+		driver.manage().window().maximize();
+				
+		driver.get("https://www.facebook.com/");
+		
+		//driver.findElement(By.xpath(".//*[@id='login_Layer']")).click();
+		
+		Thread.sleep(5000);
+		
+        driver.quit();
+        
+	}
+	
+	
+	
 	
 	
 }
